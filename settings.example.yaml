@@ -1,0 +1,17 @@
+---
+log_level: "INFO"
+
+oura_personal_access_token: "AddPersonalOuraAccessTokenHere"
+
+elasticsearch:
+    # API authentication
+    api_id: "elasticsearchAPIID"
+    api_key: "elasticsearchAPIKey"
+    
+    # Elasticsearch URL
+    host: "https://elasticsearch:9200"
+    ca_certs: "ca.crt"
+    verify_certs: True
+
+    # Oura stats index 
+    index: "oura-stats"

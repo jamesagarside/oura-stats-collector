@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  oura-stats:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        TZ: "UTC"
+    image: oura-stats:latest
