@@ -1,17 +1,27 @@
 ---
-log_level: "INFO"
+# log_level: "INFO"
 
-oura_personal_access_token: "AddPersonalOuraAccessTokenHere"
+# poll_rate: 5 # Poll rate in minutes 
 
-elasticsearch:
-    # API authentication
-    api_id: "elasticsearchAPIID"
-    api_key: "elasticsearchAPIKey"
-    
+# oura_personal_access_token: 
+
+# elasticsearch:
+
+    # cloud_id: ""
+
     # Elasticsearch URL
-    host: "https://elasticsearch:9200"
-    ca_certs: "ca.crt"
-    verify_certs: True
+    # host: "https://localhost:9200"
+    
+    # ca_certs: "ca.crt"
+    # verify_certs: False
 
+    # HTTP Authentication
+    # username:  elastic
+    # password: password
+
+    # API authentication
+    # api_id: "Zg2WK38B9J4RUZWBWqpr"
+    # api_key: "tfs5l3WAShmeeYLl4SBQSg"
+    
     # Oura stats index 
-    index: "oura-stats"
+    # index: 
