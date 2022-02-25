@@ -3,7 +3,7 @@
 
 # poll_rate: 5 # Poll rate in minutes 
 
-# oura_personal_access_token: 
+oura_personal_access_token: 
 
 # elasticsearch:
 
