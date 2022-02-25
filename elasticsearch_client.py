@@ -1,5 +1,4 @@
 import asyncio
-from asyncio.log import logger
 from elasticsearch import AsyncElasticsearch
 from elasticsearch.helpers import async_bulk
 from config import settings
@@ -45,4 +44,3 @@ def bulk_index_data_elasticsearch(data):
     common.add_doc_id_and_index(data)
     loop = asyncio.get_event_loop()
     loop.run_until_complete(bulk_index(data))
-    logger.info("Indexing to Elasticsearch")
